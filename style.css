@@ -1,19 +1,17 @@
-img {
+body {
+    text-align: center; 
+}
 
+
+
+img {
     width: 90px;
-    
     height: 90px;
-    
     float: left;
-    
-    }
+}
     
 #idCard {
-    
     border: 5px solid black;
-    
     height: 15em;
-    
     width: 25em; 
-    
-    }
+}
