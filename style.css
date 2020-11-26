@@ -3,6 +3,9 @@ body {
     background-color: rgb(97,164,187); 
 }
 
+#formContent {
+    font-weight: bold;
+}
 img {
     width: 90px;
     height: 90px;
