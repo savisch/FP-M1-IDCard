@@ -1,5 +1,6 @@
 body {
-    text-align: center; 
+    text-align: center;
+    background-color: rgb(97,164,187); 
 }
 
 
@@ -11,6 +12,8 @@ img {
 }
     
 #idCard {
+    margin: 0 auto;
+    margin-top: 3em;
     border: 5px solid black;
     height: 15em;
     width: 25em; 
