@@ -1,3 +1,4 @@
+
 body {
     text-align: center;
     background-color: rgb(97,164,187); 
@@ -13,6 +14,7 @@ img {
 }
     
 #idCard {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: rgb(238,196,203);
     margin: 0 auto;
     margin-top: 3em;
@@ -20,4 +22,16 @@ img {
     border-radius: 25px;
     height: 14em;
     width: 25em; 
+}
+
+#postFullName {
+    font-size: 1.75em;
+    border: 1px solid blue;
+}
+
+.info {
+    border:1px dotted yellow;
+    width: 75%;
+    text-align: left;
+    /* margin-top: 3em; */
 }
