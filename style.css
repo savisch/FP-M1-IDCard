@@ -3,8 +3,6 @@ body {
     background-color: rgb(97,164,187); 
 }
 
-
-
 img {
     width: 90px;
     height: 90px;
@@ -12,9 +10,11 @@ img {
 }
     
 #idCard {
+    background-color: rgb(238,196,203);
     margin: 0 auto;
     margin-top: 3em;
     border: 5px solid black;
-    height: 15em;
+    border-radius: 25px;
+    height: 14em;
     width: 25em; 
 }
