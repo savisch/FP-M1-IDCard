@@ -20,15 +20,15 @@
             <input id="phoneNumber" type="tel"><br>
             <label for="address">Address:</label><br>
             <input id="address" type="text"><br><br>
-            <button onclick="getId()" type="button">Get ID Card</button><br><br>
+            <button onclick="idCard()" type="button">Get ID Card</button><br><br>
         </form>
     </div>
 
     <div id="idCard">
         <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
-        <p id="postFullName">Joe Smith</p>
-        <p id="postAge" class="info">Age:</p>
-        <p id="postPhoneNumber" class="info">Phone Number:</p>
+        <p id="postFullName">Full Name</p>
+        <p class="info">Age: <span id="postAge"></span></p>
+        <p class="info">Phone Number: <span id="postPhoneNumber"></span></p>
         <p id="postAddress" class="info">Address:</p>
     </div>
     <script src="./script.js"></script>
