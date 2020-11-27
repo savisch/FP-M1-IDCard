@@ -26,12 +26,10 @@ img {
 
 #postFullName {
     font-size: 1.75em;
-    border: 1px solid blue;
+    margin-bottom: 1.25em;
 }
 
 .info {
-    border:1px dotted yellow;
-    width: 75%;
+    width: 100%;
     text-align: left;
-    /* margin-top: 3em; */
 }
